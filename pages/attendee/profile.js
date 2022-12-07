@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { withAuth, useAuth } from "/components/Auth";
+import { withAuth, useAuth } from "@context/Auth";
 
 import Form from "/components/moonstone/utils/Form";
 import Input from "/components/moonstone/utils/Input";

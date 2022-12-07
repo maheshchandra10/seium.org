@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import { withAuth, useAuth } from "/components/Auth";
+import { withAuth, useAuth } from "@context/Auth";
 
 import * as api from "/lib/api";
 

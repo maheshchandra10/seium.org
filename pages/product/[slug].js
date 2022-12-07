@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
 
-import { withAuth, useAuth } from "/components/Auth";
+import { withAuth, useAuth } from "@context/Auth";
 
 import { getProduct, buyProduct } from "/lib/api";
 

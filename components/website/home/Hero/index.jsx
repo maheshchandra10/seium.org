@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
 
-import { useAuth } from "/components/Auth";
+import { useAuth } from "@context/Auth";
 
 import Social from "/components/website/utils/Social";
 

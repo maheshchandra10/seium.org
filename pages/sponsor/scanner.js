@@ -6,7 +6,7 @@ import { giveBadge } from "/lib/api";
 
 import Base from "/components/moonstone/staff/utils/Base";
 import QRScanner, { FEEDBACK } from "/components/moonstone/utils/QRScanner";
-import { useAuth } from "../../components/Auth/useAuth";
+import { useAuth } from "@context/Auth";
 
 const navigation = ["badges"];
 

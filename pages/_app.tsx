@@ -1,4 +1,4 @@
-import { AuthProvider } from "@components/Auth";
+import { AuthProvider } from "@context/Auth";
 import Header from "@components/utils/Header";
 
 import "../styles/globals.css";

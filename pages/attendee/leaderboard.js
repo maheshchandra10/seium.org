@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 
-import { withAuth } from "/components/Auth";
-import { useAuth } from "/components/Auth/useAuth";
+import { useAuth, withAuth } from "@context/Auth";
 
 import Dashboard from "/components/moonstone/user/utils/Dashboard";
 import Table from "/components/moonstone/user/leaderboard/Table";

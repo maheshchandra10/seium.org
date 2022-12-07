@@ -8,7 +8,7 @@ import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
-import { useAuth } from "/components/Auth";
+import { useAuth } from "@context/Auth";
 import JoinUs from "/components/website/utils/JoinUs";
 import styles from "./style.module.css";
 

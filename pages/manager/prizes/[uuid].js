@@ -1,15 +1,12 @@
 import { useState, useEffect } from "react";
 
-import { withAuth, useAuth } from "/components/Auth";
+import { withAuth, useAuth } from "@context/Auth";
 import { useRouter } from "next/router";
 
 import * as api from "/lib/api";
 
 import Base from "/components/moonstone/staff/utils/Base";
-import Prizes from "/components/moonstone/user/vault/wheel/Prizes";
 import Button from "/components/moonstone/utils/Button";
-
-import Balance from "/components/moonstone/user/store/Balance";
 
 const navigation = ["badges", "prizes", "identifier"];
 

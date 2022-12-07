@@ -3,7 +3,7 @@
 import { useRef } from "react";
 import { motion as Motion } from "framer-motion";
 
-import { useAuth, withoutAuth } from "@components/Auth";
+import { useAuth, withoutAuth } from "@context/Auth";
 
 import Button from "@components/utils/Button";
 import Card from "@components/utils/Card";

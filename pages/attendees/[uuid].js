@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
-import { withAuth, useAuth } from "/components/Auth";
+import { withAuth } from "@context/Auth";
 
 import Dashboard from "/components/moonstone/user/utils/Dashboard";
 import Heading from "/components/moonstone/utils/Heading";

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useRouter } from "next/router";
 
-import { withoutAuth, useAuth } from "/components/Auth";
+import { withoutAuth, useAuth } from "@context/Auth";
 import { motion as Motion } from "framer-motion";
 
 import Button from "/components/utils/Button";

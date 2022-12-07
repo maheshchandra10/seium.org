@@ -5,7 +5,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { classNames } from "/lib/css";
-import { useAuth } from "/components/Auth";
+import { useAuth } from "@context/Auth";
 import Return from "/components/moonstone/utils/Return";
 
 const navigation = [
