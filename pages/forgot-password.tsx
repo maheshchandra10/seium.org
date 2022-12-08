@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import { withoutAuth } from "@components/Auth";
+import { withoutAuth } from "@context/Auth";
 import { sendResetEmail } from "@lib/api";
 
 import { motion as Motion } from "framer-motion";

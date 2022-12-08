@@ -1,12 +1,10 @@
 import { useState, useRef } from "react";
 
-import { withAuth } from "/components/Auth";
-
 import { giveBadge } from "/lib/api";
 
 import Base from "/components/moonstone/staff/utils/Base";
 import QRScanner, { FEEDBACK } from "/components/moonstone/utils/QRScanner";
-import { useAuth } from "@context/Auth";
+import { useAuth, withAuth } from "@context/Auth";
 import { useRouter } from "next/router";
 
 const navigation = ["badges", "prizes", "identifier"];

@@ -1,4 +1,4 @@
-import { withoutAuth } from "@components/Auth";
+import { withoutAuth } from "@context/Auth";
 import Navbar from "@components/website/utils/Navbar";
 import Footer from "@components/website/utils/Footer";
 import Faqs from "@components/website/faqs";

@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import { useRouter } from "next/router";
-import { withoutAuth } from "@components/Auth";
+import { withoutAuth } from "@context/Auth";
 
 import { resetPasswordWithToken } from "@lib/api";
 

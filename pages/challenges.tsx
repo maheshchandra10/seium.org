@@ -1,4 +1,4 @@
-import { withoutAuth } from "@components/Auth";
+import { withoutAuth } from "@context/Auth";
 import Hero from "@components/website/challenges/Hero";
 import Challenges from "@components/website/challenges/Challenges";
 

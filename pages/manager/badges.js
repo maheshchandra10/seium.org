@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
-import { withAuth } from "/components/Auth";
+import { withAuth } from "@context/Auth";
 
 import { getAllBadges, giveBadge } from "/lib/api";
 

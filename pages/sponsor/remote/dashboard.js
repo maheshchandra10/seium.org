@@ -1,4 +1,4 @@
-import { withAuth } from "/components/Auth";
+import { withAuth } from "@context/Auth";
 import Dashboard from "/components/moonstone/sponsor/utils/Dashboard";
 import Heading from "/components/moonstone/utils/Heading";
 import SponsorPrizeButton from "/components/moonstone/sponsor/dashboard/SponsorPrizeButton";

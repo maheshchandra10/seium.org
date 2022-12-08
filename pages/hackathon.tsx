@@ -1,4 +1,4 @@
-import { withoutAuth } from "@components/Auth";
+import { withoutAuth } from "@context/Auth";
 import Hero from "@components/website/hackathon/Hero";
 import PeopleShowcase from "@components/website/utils/PeopleShowcase";
 import UnderlineAnimation from "@components/website/utils/UnderlineAnimation";

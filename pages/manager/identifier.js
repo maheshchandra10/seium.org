@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 
-import { withAuth } from "/components/Auth";
+import { withAuth } from "@context/Auth";
 
 import { getAttendee } from "/lib/api";
 
